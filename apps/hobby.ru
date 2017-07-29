@@ -2,7 +2,9 @@ require 'hobby'
 
 class App
   include Hobby
-  get { "Hello World!" }
+  1000.times do |int|
+    get("/#{int}") { "Hello World! #{int}" }
+  end
 end
 
 APP = App.new

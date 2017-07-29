@@ -2,7 +2,9 @@ require "watts"
 
 class HelloWorld < Watts::App
   class HelloController < Watts::Resource
-    get { "Hello, World!" }
+    1000.times do |int|
+      get("#{int}") { "Hello, World! #{int}" }
+    end
   end
   resource("/", HelloController)
 end

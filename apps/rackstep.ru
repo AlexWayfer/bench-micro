@@ -7,7 +7,9 @@ class HelloController < RackStep::Controller
 end
 
 class HelloWorld < RackStep::App
-  add_route("GET", "", HelloController)
+  1000.times do |int|
+    add_route("GET", "#{int}", HelloController)
+  end
 end
 
 APP = HelloWorld

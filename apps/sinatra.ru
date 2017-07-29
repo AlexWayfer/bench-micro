@@ -1,8 +1,10 @@
 require "sinatra/base"
 
 class HelloWorld < Sinatra::Base
-  get "/" do
-    "Hello World!"
+  1000.times do |int|
+    get "/#{int}" do
+      "Hello World! #{int}"
+    end
   end
 end
 

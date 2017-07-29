@@ -3,7 +3,9 @@ require "action_controller/railtie"
 
 class HelloWorld < Rails::Application
   routes.append do
-    get "/", to: "hello#world"
+    1000.times do |int|
+      get "/#{int}", to: "hello#world"
+    end
   end
 
   config.api_only = true

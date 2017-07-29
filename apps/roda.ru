@@ -2,8 +2,10 @@ require "roda"
 
 class HelloWorld < Roda
   route do |r|
-    r.root do
-      "Hello World!"
+    1000.times do |int|
+      r.get "/#{int}" do
+        "Hello World! #{int}"
+      end
     end
   end
 end

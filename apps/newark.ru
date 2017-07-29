@@ -3,8 +3,10 @@ require "newark"
 class HelloWorld
   include Newark
 
-  get "/" do
-    "Hello World!"
+  1000.times do |int|
+    get "/#{int}" do
+      "Hello World! #{int}"
+    end
   end
 end
 

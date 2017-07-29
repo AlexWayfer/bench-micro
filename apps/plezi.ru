@@ -1,8 +1,10 @@
 require 'plezi'
 
 class HelloWorld
-  def index
-    "Hello World!".freeze
+  1000.times do |int|
+    define_method "#{int}" do
+      "Hello World! #{int}".freeze
+    end
   end
 end
 

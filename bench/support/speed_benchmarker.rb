@@ -49,7 +49,7 @@ class SpeedBenchmarker
   end
 
   def wrk_command
-    "wrk --threads 2 --duration 10 http://localhost:9292/"
+    "wrk --threads 2 --duration 10 http://localhost:9292/999"
   end
 
   require 'pty'

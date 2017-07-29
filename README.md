@@ -74,24 +74,24 @@ Yup, I do:
 ```
 Framework            Requests/sec  % from best
 ----------------------------------------------
-rack                     16339.26      100.00%
-watts                    15259.49       93.39%
-syro                     13803.82       84.48%
-roda                     12268.70       75.09%
-hanami-router            11818.36       72.33%
-cuba                     11451.53       70.09%
-hobbit                   11337.03       69.39%
-rack-response            11273.67       69.00%
-hobby                    10152.60       62.14%
-newark                    9596.83       58.73%
-plezi                     9219.48       56.43%
-rambutan                  9108.58       55.75%
-rackstep                  8124.54       49.72%
-rack-app                  7693.54       47.09%
-rails-metal               6750.78       41.32%
-sinatra                   4123.50       25.24%
-grape                     3348.19       20.49%
-rails-api                 1222.69        7.48%
+hobby                    19403.67      100.00%
+rack-app                 16147.52       83.22%
+hanami-router            15932.67       82.11%
+rackstep                 13611.94       70.15%
+plezi                    12264.31       63.21%
+rails-metal              11403.11       58.77%
+rack                      4442.66       22.90%
+rack-response             3930.88       20.26%
+newark                    2034.58       10.49%
+syro                      1971.88       10.16%
+hobbit                    1928.52        9.94%
+rails-api                 1437.66        7.41%
+sinatra                    673.07        3.47%
+flame                      646.57        3.33%
+roda                       603.89        3.11%
+grape                      528.79        2.73%
+cuba                       159.65        0.82%
+rambutan                     2.70        0.01%
 ```
 <!-- speed_table_end -->
 
